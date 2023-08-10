@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    background-color: #2d394b;
+    height: 60px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    padding: 10px 70px 10px 30px;
+}
+.header{
+    background-color: #212121;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80px;
+    position:relative;
+    display: flex;
+    align-items: center;
+    font-family:  Jost, sans-serif;
+    justify-content: space-around;
+    cursor: pointer;
+    font-weight: 400;
+    z-index: 1030;
+}
+.header>button{
+    background-color: #a7856a;
+    color:white;
+    border: #a7856a 1px solid;
+    height: 30px;
+    width: 140px;
+}
+.header>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 15px;
+    
+}
+.Bilury{
+    color: #9cc9f5;
+    margin-right: 15x;
+    text-decoration: none;
+}
+.Bilury:hover{
+    color: white;
+}
+.screen{
+    color: white;
+    font-size: 25px;
+}
+.cart{
+    background-color: rgb(76, 200, 76);
+    color: white;
+    border:rgb(76, 200, 76) ;
+    border-radius: 5px;
+    height: 40px;
+    margin-right: 10px;
+    width: 140px;
+}
+.cart:hover{
+    background-color: green;
+}
+.carousel{
+    position: absolute;
+    z-index: 0;
+}
+.carousel-item>img{
+    height: 500px;
+    width: 100%;
+}
+.Paris{
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+.para{
+    text-align: center;
+    font-size: 20px;
+}
+.cbox{
+    background-color: #212121;    
+    width: 1000px;
+    height: 95px;
+    padding-top: 20px;
+    border: 2px solid #212121;
+    opacity: 0.7;
+}
+.cboxc{
+    background-color: grey;
+    opacity: 0.7;
+    height: 50px;
+    width: 300px;
+}
+.buttonc{
+    height: 50px;
+    width: 300px;
+    background-color: #a7856a;
+}
+.buttonc:hover{
+    background-color: #866a55;
+}
+.img{
+    height: 400px;
+    width: 250px;
+    margin: 20px;
+}
+.img2{
+    height: 400px;
+    width: 250px;
+    margin: 20px;
+    margin-left: 2px;
+    margin-top: 60px;
+}
+.button{
+    width: 150px;
+    margin-left: 25px;
+    padding: 10px;
+    background-color: #a7856a;
+    border: #a7856a;
+    color: white;
+}
+.button:hover{
+    background-color: #8e715a;
+    border: #8e715a;
+}
+.location{
+    background-color: #f4f0ec!important;
+    padding: 10px;
+}
+.rooms{
+    height: 500px;
+    background-color: black;
+    color: white;
+}
+.Suites{
+    font-family: Cinzel,serif!important;
+    text-transform: uppercase!important;
+    margin-top: 15px;
+}
+.image{
+    position: relative;
+}
+img{
+    width: 260px;
+    height: 350px;
+    margin-left: 20px;
+}
+.content{
+    width: 260px;
+    height: 50%;
+    left: 32px;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content:hover{
+    opacity: 1;
+}
+.content>a{
+    text-decoration: none;
+    color:#a7856a ;
+}
+.content>button{
+    background-color: #a7856a;
+    color: white;
+    border:#a7856a 2px solid;
+}
+.High{
+    color: #a7856a;
+}
+.Restaurent{
+    background-color:#f4f0ec!important;
+     
+}
+.rest{
+    height: 200px;
+    width: 200px; 
+    margin-right: 10px;
+    margin-left: 0;
+    float: left;
+}
+.divrest{
+    height: 200px;
+}
+.rest1{
+    height: 200px;
+    width: 200px; 
+    margin-left: 10px;
+    float: right;
+}
+.bvideo{
+background-image: url(imgv.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+height: 500px;
+width: 100%;
+margin-bottom: 100px;
+}
+.vbutton{
+    font-size: 5px;
+    display: none;
+}
+#iconvideo{
+    font-size: 40px;
+    margin-top: 180px;
+    margin-left: 600px;
+    color: #754e30;
+}
+.videotext{
+    color:white;
+    text-align: center;
+}
+.pvideo{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.clients{
+    margin-top: 60px;
+}
+.review{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 110px;
+    margin-bottom: 50px;
+}
+.newsback{
+    background-color: #f4f0ec!important;
+    padding: 20px;
+}
+.news{
+    height: 500px ;
+    width: 360px;
+    box-shadow: inset;
+    border: 1px solid whitesmoke;
+    margin-left: 25px;
+}
+.news>img{
+    height: 300px;
+    width: 360px;   
+}
+#Viewall{
+    width: 150px;
+    height: 40px;
+    background: #a7856a;
+    color: white;
+    margin-left: 550px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: none;
+}
+#Viewall:hover{
+    background-color: #866a55;
+}
+.bookr{
+    background-image: url(imgb4.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+.emailb{
+    margin-left: 70px;
+    font-size: 20px;
+    color: white;
+}
+.reservation{
+    margin-top: 60px;
+    margin-left: 200px;
+    height: 400px;
+    width: 400px;
+    background-color: #f4f0ec!important;;
+
+}
+.reservation>h2{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.promotion{
+    color: #a7856a;
+}
+.itext{
+    width: 350px;
+    height: 600px;
+    height: 40px;
+    margin: 20px;
+    
+}
+.reservation>button{
+    width: 350px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: #a7856a;
+    color: white;
+    border: #a7856a;
+}
+.reservation>button:hover{
+    background-color:#8e715a;
+    border: #8e715a;
+}
+.footer{
+    background-color: black;
+    height: 350px;
+    color: white;
+    border-bottom: 2px grey solid;
+}
+.footerimg{
+    height: 40px;
+    width: 40px; 
+    margin: 20px; 
+    border-radius: 30px;
+}
+.ull{
+    list-style: none;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.ull>li>a{
+    text-decoration: none;
+}
+.ull>li:hover{
+    color: #8e715a; 
+}
+.ull2{
+    margin-top: 60px;
+    list-style: none;
+}
+.ull2>li{
+    margin: 15px;
+}
+.ull2>li:hover{
+    color: #8e715a; 
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+footer>div>button{
+    background-color: #a7856a;
+    color: white;
+}
